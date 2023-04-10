@@ -1,0 +1,190 @@
+
+ /* Reset .css padrao
+ */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+/*style index.html*/
+#header-index {
+    width: 100%;
+    height: 80px;
+    background-color: #1976D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+h1{
+    color:#fff;
+    font-size: 28px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#h-titulo{
+    
+    width: 80%;
+  
+}
+/*
+  Cores background
+  #546E7A
+  #90A4AE
+  #1976D2
+*/
+
+body {
+
+    background-image: url(imagens/index-background-laptop-ged.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+   
+
+main{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    width: 300px;
+    height: auto;
+    padding: 8px;
+    border:1px solid #90A4AE ;
+    border-radius: 10px;
+}
+
+form label{
+    display: block;
+    width: 100%;
+    padding: 5px 5px 5px 0;
+    font-size: 22px;
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+
+form .boxTxt{
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+
+}
+
+form .btnEnviar {
+    margin-top: 5px;
+    border:none;
+    width: 100%;
+    cursor: pointer;
+    background-color: #1976D2;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+   
+
+}
+/*imagem fixa canto pagina*/
+.content-whatsapp #figure-whatsapp{
+    width: 60px;
+    height: 60px;
+}
+
+.content-whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+
+/*style homepage*/
+#header-homepage {
+    width: 100%;
+    height: 80px;
+    background-color: #1976D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+}
+
+.body-homepage{
+    background-image: url(imagens/index-background-laptop-ged.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.btn-voltar{
+    text-decoration: none;
+    font-size:16px;
+    color: white;
+    display: flex;
+    width: 50;
+    border: 1px transparent;
+    width: 150px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.btn-nextpage{
+    text-decoration: none;
+    font-size:16px;
+    color: white;
+    display: flex;
+    width: 50;
+    border: 1px transparent;
+    width: 150px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.btn-paginalogin{
+    text-decoration: none;
+    font-size:16px;
+    color: white;
+    display: flex;
+    width: 50;
+    border: 1px transparent;
+    width: 150px;
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+#h-homepage {
+    
+    width: 80%;
+}
+
+/* ESTILOS CSS para style.css
+
+body{ width: 100vw;
+    height: 100vh;
+}
+
+*/

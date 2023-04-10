@@ -1,0 +1,18 @@
+.d-flex{
+    display: flex;
+}
+
+.align-centerxy{
+    justify-content: center;
+    align-items: center;
+
+}
+
+.align-el-x {
+    justify-content: center;
+}
+
+.align-le-y {
+    align-items: center;
+}
+
